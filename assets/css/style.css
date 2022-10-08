@@ -17,9 +17,15 @@ h1, h2 {
 }
 
 #hero-image {
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image-mobile.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+    #hero-image {
+        background: url(../images/hero-image.jpg) no-repeat center center;
+    }
 }
 
 hr {
