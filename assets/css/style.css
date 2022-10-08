@@ -4,6 +4,14 @@
     border: none;
 }
 
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
 h1, h2 {
     text-align: center;
 }
