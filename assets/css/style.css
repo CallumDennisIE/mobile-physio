@@ -31,3 +31,25 @@ h1, h2 {
 hr {
     border: black 1px solid;
 }
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    text-decoration: none;
+    list-style: none;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 1rem;
+}
