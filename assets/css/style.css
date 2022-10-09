@@ -28,11 +28,7 @@ h1, h2 {
     }
 }
 
-hr {
-    border: black 1px solid;
-}
-
-
+/* Header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -52,4 +48,17 @@ header {
 
 h1 {
     padding: 1rem;
+}
+
+/* Footer styling */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: xx-large;
+}
+
+footer a {
+    color: black;
 }
