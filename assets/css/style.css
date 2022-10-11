@@ -70,7 +70,7 @@ footer a {
     text-align: center;
 }
 
-.about-container {
+#about-container {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -81,7 +81,7 @@ footer a {
 }
 
 /* Contact Section - Home Page */
-.contact-container {
+#contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +93,7 @@ footer a {
     #hero-image {
         background: url(../images/hero-image.jpg) no-repeat center center;
     }
-    .about-container {
+    #about-container {
         flex-direction: row;
     }
     h1 {
