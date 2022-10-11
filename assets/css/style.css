@@ -88,6 +88,11 @@ footer a {
     flex-direction: column;
 }
 
+/* Testimonial Page */
+.testimonial-item {
+    padding: 15px;
+}
+
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
     #hero-image {
