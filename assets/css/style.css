@@ -80,6 +80,14 @@ footer a {
     flex-basis: 30%;
 }
 
+/* Contact Section - Home Page */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
     #hero-image {
