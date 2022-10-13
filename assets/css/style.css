@@ -72,7 +72,8 @@ footer a {
 
 /* About Us */
 .about-us {
-    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .about-us h3{
@@ -95,6 +96,7 @@ footer a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 15px;
 }
 
 /* Testimonial Page */
