@@ -102,12 +102,33 @@ footer a {
     padding: 15px;
 }
 
+/* Contact Page */
+#contact-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-item {
+    flex-basis: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+#contact-header > p {
+    text-align: center;
+}
+
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
     #hero-image {
         background: url(../images/hero-image.jpg) no-repeat center center;
     }
     #about-container {
+        flex-direction: row;
+    }
+    #contact-container {
         flex-direction: row;
     }
     h1 {
