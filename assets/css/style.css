@@ -91,7 +91,7 @@ footer a {
 }
 
 /* Contact Section - Home Page */
-#contact-container {
+#about-contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
