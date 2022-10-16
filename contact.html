@@ -42,14 +42,42 @@
             </div>
             <div class="contact-item">
                 <h3>Book an Appointment</h3>
-                <p>Name:</p>
-                <p>Email:</p>
-                <p>Phone number:</p>
-                <p>Date of birth:</p>
-                <p>Appointment type:</p>
-                <p>Date of appointment</p>
-                <p>Any additional information:</p>
-                <p>Submit</p>
+                <form id="form-box" method="POST" target="_blank" action="https://formdump.codeinstitute.net/">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname">
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="phone-num">Phone number:</label>
+                    <input type="tel" id="phone-num" name="phone-num">
+
+                    <label for="dob">Date of birth:</label>
+                    <input type="date" id="dob" name="dob">
+
+                    <!-- Make this multi choice! -->
+                    <p>Appointment type:</p>
+                    <label for="tissue-massage">Deep Tissue Massage</label>
+                    <input type="radio" id="tissue-massage" name="appoint-type" value="tissue-massage">
+
+                    <label for="injury-rehab">Injury Rehabilitation</label>
+                    <input type="radio" id="injury-rehab" name="appoint-type" value="injury-rehab">
+
+                    <label for="sport-massage">Sports Massage</label>
+                    <input type="radio" id="sport-massage" name="appoint-type" value="sport-massage">
+
+                    <label for="appoint-date">Date of appointment:</label>
+                    <input type="date" id="appoint-date" name="appoint-date">
+
+                    <label for="extra-info">Any additional information:</label>
+                    <input type="textarea" id="extra-info" name="extra-info">
+
+                    <input type="submit" value="Submit ">
+                    <input type="reset">
+                </form>
             </div>
         </div>
         
