@@ -72,8 +72,8 @@ footer a {
 
 /* About Us */
 .about-us {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .about-us h3{
@@ -89,6 +89,7 @@ footer a {
 .about-item {
     flex-basis: 30%;
     background-color: lightgrey;
+    padding: 5%;
 }
 
 /* Contact Section - Home Page */
@@ -119,7 +120,8 @@ footer a {
 }
 
 .contact-item {
-    flex-basis: 20%;
+    flex-basis: 30%;
+    padding: 5%;
     background-color: lightgray;
 }
 
@@ -130,7 +132,6 @@ footer a {
 .contact-item form {
     display: flex;
     flex-direction: column;
-    padding: 5%;
 }
 
 .form-input {
