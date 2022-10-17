@@ -88,6 +88,7 @@ footer a {
 
 .about-item {
     flex-basis: 30%;
+    background-color: lightgrey;
 }
 
 /* Contact Section - Home Page */
@@ -102,13 +103,14 @@ footer a {
 /* Testimonial Page */
 .testimonial-item {
     padding: 15px;
+    background-color: lightgrey;
 }
 
 /* Contact Page */
 #contact-container {
     display: flex;
     align-content: center;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -116,6 +118,11 @@ footer a {
     flex-basis: 40%;
     text-align: center;
     padding: 20px;
+    background-color: lightgray;
+}
+
+.contact-item form {
+    text-align: center;
 }
 
 #contact-header > p {
