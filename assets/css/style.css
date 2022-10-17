@@ -122,7 +122,9 @@ footer a {
 }
 
 .contact-item form {
-    text-align: center;
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 #contact-header > p {
