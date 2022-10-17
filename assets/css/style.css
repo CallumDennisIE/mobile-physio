@@ -107,6 +107,10 @@ footer a {
 }
 
 /* Contact Page */
+#contact-header > p {
+    text-align: center;
+}
+
 #contact-container {
     display: flex;
     align-content: center;
@@ -116,8 +120,6 @@ footer a {
 
 .contact-item {
     flex-basis: 20%;
-    padding-left: 10%;
-    padding-right: 10%;
     background-color: lightgray;
 }
 
@@ -125,9 +127,16 @@ footer a {
     text-align: center;
 }
 
-#contact-header > p {
-    text-align: center;
+.contact-item form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
 }
+
+.form-input {
+    display: flex;
+}
+
 
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
@@ -139,6 +148,10 @@ footer a {
     }
     #contact-container {
         flex-direction: row;
+    }
+    #contact-item {
+        padding-left: 10%;
+        padding-right: 10%;
     }
     h1 {
         display: inline;
