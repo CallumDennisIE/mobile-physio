@@ -115,16 +115,14 @@ footer a {
 }
 
 .contact-item {
-    flex-basis: 40%;
-    text-align: center;
-    padding: 20px;
+    flex-basis: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: lightgray;
 }
 
-.contact-item form {
-    text-align: left;
-    padding-left: 30%;
-    padding-right: 30%;
+.contact-item h3 {
+    text-align: center;
 }
 
 #contact-header > p {
