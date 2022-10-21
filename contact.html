@@ -45,16 +45,16 @@
                 <form id="form-box" action="submit.html">
                     <h4>Your Details:</h4>
                     <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="fname">
+                    <input type="text" id="fname" name="fname" required>
 
                     <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" name="lname">
+                    <input type="text" id="lname" name="lname" required>
 
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
 
                     <label for="phone-num">Phone number:</label>
-                    <input type="tel" id="phone-num" name="phone-num">
+                    <input type="tel" id="phone-num" name="phone-num" required>
 
                     <label for="dob">Date of birth:</label>
                     <input type="date" id="dob" name="dob">
@@ -65,7 +65,7 @@
                     <p>Appointment type:</p>
                     
                     <div class="form-input">
-                        <input type="radio" id="tissue-massage" name="appoint-type" value="tissue-massage">
+                        <input type="radio" id="tissue-massage" name="appoint-type" value="tissue-massage" required>
                         <label for="tissue-massage">Deep Tissue Massage</label>
                     </div>
                     
@@ -80,7 +80,7 @@
                     </div>
                     
                     <label for="appoint-date">Date of appointment:</label>
-                    <input type="date" id="appoint-date" name="appoint-date">
+                    <input type="date" id="appoint-date" name="appoint-date" required>
 
                     <label for="extra-info">Any additional information:</label>
                     <input type="textarea" id="extra-info" name="extra-info">
