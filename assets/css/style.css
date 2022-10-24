@@ -117,7 +117,7 @@ footer a:hover {
     transition: 0.5s transform;
 }
 
-.about-item:hover, .about-item:active {
+.about-item:hover {
     /* Enlarge item */
     transform: scale(1.05);
 }
@@ -159,7 +159,7 @@ footer a:hover {
     transition: 0.5s transform;
 }
 
-.testimonial-item:hover, .testimonial-item:active {
+.testimonial-item:hover {
     /* Enlarge item */
     transform: scale(1.05);
 }
@@ -172,7 +172,7 @@ footer a:hover {
     font-size: xx-large;
 }
 
-.testimonial-item i:hover, .testimonial-item i:active {
+.testimonial-item i:hover {
     transform: translateY(-5px);
 }
 
