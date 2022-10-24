@@ -132,6 +132,7 @@ footer a:hover {
     background-color: lightgrey;
     box-shadow: 5px 5px 5px black;
     border-radius: 20px;
+    width: 80%;
 }
 
 /* Contact Page */
