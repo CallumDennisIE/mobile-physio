@@ -106,7 +106,6 @@ footer {
 }
 
 footer a {
-    color: black;
     transition: 0.5s transform;
     margin-bottom: 15px;
 }
@@ -129,12 +128,14 @@ footer a:hover {
 }
 
 #about-item {
+    /* Sets the amount of space used by each about item */
     flex-basis: 30%;
+    /* Set transition duration for transform */
     transition: 0.5s transform;
 }
 
+/* Enlarge item on hover*/
 #about-item:hover {
-    /* Enlarge item */
     transform: scale(1.05);
 }
 
@@ -154,7 +155,9 @@ footer a:hover {
 }
 
 #testimonial-item {
+    /* Sets the width of each testimonial */
     width: 80%;
+    /* Set transition duration for transform */
     transition: 0.5s transform;
 }
 /* Enlarge testimonial item on hover */
@@ -171,7 +174,6 @@ footer a:hover {
 
     /* Set transition duration for transform */
     transition: 0.5s transform;
-    
 }
 
 /* Move individual stars up on hover */
@@ -179,28 +181,25 @@ footer a:hover {
     transform: translateY(-5px);
 }
 
-/* Contact Page */
-
+/* --- Contact Page --- */
+/* Centers content in contact containers */
 #contact-container {
     align-content: center;
     justify-content: space-around;
 }
-
 #contact-item {
     flex-basis: 40%;
 }
-
+/* Wraps form elemnts to new lines and creates space around */
 #form-container {
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
 }
-
-/* Add margin to add space between radio input and label */ 
+/* Add margin to create space between radio input and label */ 
 input[type="radio"]{
     margin-right: 5px;
 }
-
 /* Only allow vertical resizing of form textarea, to stop overflow off contact-item */
 textarea {
     resize: vertical;
