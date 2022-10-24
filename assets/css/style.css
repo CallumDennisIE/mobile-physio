@@ -68,6 +68,13 @@ footer {
 
 footer a {
     color: black;
+    transition: 0.5s transform;
+}
+
+/* Style footer icons on hover */
+footer a:hover {
+    /* Enlarge icons */
+    transform: scale(1.5);
 }
 
 /* About Us */
@@ -186,7 +193,7 @@ button:hover, .form-button:hover {
     background-color: #4EB7DA;
 
     /* Enlarge box shadow */
-    box-shadow: 5px 5px 5px black;;
+    box-shadow: 5px 5px 5px black;
 }
 
 /* Media Query for larger screen sizes */
