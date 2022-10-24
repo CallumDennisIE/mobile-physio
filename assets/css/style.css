@@ -111,12 +111,16 @@ footer a {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .testimonial-item {
-    padding: 15px;
+    padding: 10px;
     background-color: lightgrey;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
 }
 
 /* Contact Page */
