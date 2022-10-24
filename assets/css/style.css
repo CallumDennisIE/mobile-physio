@@ -1,7 +1,18 @@
+/* https://fonts.google.com/specimen/Cabin?category=Sans+Serif&preview.text=Mobile%20Physio&preview.text_type=custom */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+/* https://fonts.google.com/specimen/Nunito?category=Sans+Serif&preview.text=Mobile%20Physio&preview.size=21&preview.text_type=custom#styles */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
     margin: 0;
     padding: 0;
     border: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -23,10 +34,6 @@ header a {
 
 header a:hover {
     text-decoration: underline;
-}
-
-h1, h2 {
-    text-align: center;
 }
 
 #hero-image {
