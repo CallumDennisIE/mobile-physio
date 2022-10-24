@@ -152,10 +152,10 @@ footer a {
 button, .form-button {
     padding: 1rem;
     border: none;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 2px black;
     text-align: center;
     margin: 1rem;
-    transition: 0.5s transform, color, background-color;
+    transition: 0.5s transform, color, background-color, box-shadow;
 }
 
 /* Style buttons on hover */
@@ -163,9 +163,12 @@ button:hover, .form-button:hover {
     /* Enlarge buttons */
     transform: scale(1.1);
 
-    /* Color buttons background & text */
+    /* Colour background & text */
     color: white;
     background-color: #4EB7DA;
+
+    /* Enlarge box shadow */
+    box-shadow: 5px 5px 5px black;;
 }
 
 /* Media Query for larger screen sizes */
