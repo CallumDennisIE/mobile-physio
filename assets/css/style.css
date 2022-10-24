@@ -20,7 +20,11 @@ a {
 .header-section {
     text-align: center;
 }
-
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
 
@@ -112,13 +116,8 @@ footer a:hover {
 }
 
 #about-container {
-    display: flex;
     justify-content: space-around;
-    flex-direction: column;
     align-items: stretch;
-    gap: 10px;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .about-item {
@@ -141,22 +140,17 @@ footer a:hover {
 
 /* Contact Section - Home Page */
 #about-contact-container {
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 15px;
 }
 
 /* Testimonial Page */
 #testimonial-container {
-    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
     gap: 25px;
-    margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .testimonial-item {
@@ -188,13 +182,8 @@ footer a:hover {
 /* Contact Page */
 
 #contact-container {
-    display: flex;
     align-content: center;
     justify-content: space-around;
-    flex-direction: column;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    gap: 10px;
 }
 
 .contact-item {
