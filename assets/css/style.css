@@ -121,6 +121,8 @@ footer a {
     align-content: center;
     justify-content: space-around;
     flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .contact-item {
