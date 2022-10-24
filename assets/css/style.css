@@ -9,50 +9,58 @@
     margin: 0;
     padding: 0;
     border: none;
+
+    /* Sets custom font for all text */
     font-family: 'Nunito', sans-serif;
 }
+
+/* Reset default anchor tag styling */
 a {
     color: black;
     text-decoration: none;
 }
 
-/* Refactored Code: */
+/* Aligns text in the header sections */
 .header-section {
     text-align: center;
 }
+
+/* Standard positional styling for flex containers */
 .flex-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+/* Standard styling for flex items */
 .flex-item {
     padding: 10px;
-    box-shadow: 5px 5px 5px black;
     background-color: lightgray;
+    /* Adds a black box-shadow */
+    box-shadow: 5px 5px 5px black;
+    /* Rounds corners of the flex-items */
     border-radius: 20px;
 }
+
+/* Sets the image width to the flex-item width */
 .flex-item img {
     max-width: 100%;
 }
 
-
-
-
-
-
+/* Centers page title and headings and uses a custom font */
 h1, h2 {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
 
+/* Centers Font Awesome social media links in the footer */
 footer {
     text-align: center;
 }
 
-
+/* Adds padding to page title and hides header on mobile devices*/
 h1 {
     padding: 1rem;
-    /* Hide header on mobile devices */
     display: none;
 }
 
@@ -61,12 +69,12 @@ header a:hover {
     text-decoration: underline;
 }
 
+/* Sets hero image for mobile devices and sets the size */
 #hero-image {
     background: url(../images/hero-image-mobile.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
 }
-
 
 /* Header styling */
 header {
@@ -158,13 +166,17 @@ footer a:hover {
 /* Style Font Awesome review stars */
 #testimonial-item i {
     color: gold;
+
+    /* Adds a shadow to icons and increases icon size */
     text-shadow: 2px 2px black;
     font-size: xx-large;
 
-/* Move individual stars on hover */
+    /* Set transition duration for transform */
     transition: 0.5s transform;
     
 }
+
+/* Move individual stars up on hover */
 #testimonial-item i:hover {
     transform: translateY(-5px);
 }
@@ -198,21 +210,28 @@ input[type="radio"]{
     margin-right: 5px;
 }
 
-/* Only allow vertical resizing, to stop overflowing off of contact-item */
+/* Only allow vertical resizing of form textarea, to stop overflow off contact-item */
 textarea {
     resize: vertical;
 }
 
 /* Style for Buttons */
 button, .form-button {
+    /* Box model styling for buttons */
     padding: 1rem;
-    border: none;
-    box-shadow: 5px 5px 2px black;
-    text-align: center;
     margin: 1rem;
-    transition: 0.5s transform, color, background-color, box-shadow;
-    border-radius: 20px;
+    border: none;
+
+    /* Center button text and set background colour */
+    text-align: center;
     background-color: #F0F0F0;
+
+    /* Add a box shadow and round button corners */
+    box-shadow: 5px 5px 2px black;
+    border-radius: 20px;
+    
+    /* Set trastion duration and values for on hover effect */
+    transition: 0.5s transform, color, background-color, box-shadow;
 }
 
 /* Style buttons on hover */
@@ -220,7 +239,7 @@ button:hover, .form-button:hover {
     /* Enlarge buttons */
     transform: scale(1.1);
 
-    /* Colour background & text */
+    /* Change background & text colour */
     color: white;
     background-color: #4EB7DA;
 
@@ -230,15 +249,20 @@ button:hover, .form-button:hover {
 
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
+    /* Show wider hero-image for non-mobile devices */
     #hero-image {
         background: url(../images/hero-image.jpg) no-repeat center center;
     }
+
+    /* Set flex containers to row on larger devices */
     #about-container {
         flex-direction: row;
     }
     #contact-container {
         flex-direction: row;
     }
+
+    /* Show page title on larger screen sizes */
     h1 {
         display: inline;
     }
