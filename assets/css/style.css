@@ -151,6 +151,17 @@ footer a:hover {
     width: 80%;
 }
 
+/* Move individual stars on hover */
+.testimonial-item i {
+    color: gold;
+    text-shadow: 2px 2px black;
+    transition: 0.5s transform;
+}
+
+.testimonial-item i:hover {
+    transform: translateY(-5px);
+}
+
 /* Contact Page */
 #contact-header > p {
     text-align: center;
