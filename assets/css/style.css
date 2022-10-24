@@ -162,6 +162,7 @@ footer a:hover {
     color: gold;
     text-shadow: 2px 2px black;
     transition: 0.5s transform;
+    font-size: xx-large;
 }
 
 .testimonial-item i:hover {
