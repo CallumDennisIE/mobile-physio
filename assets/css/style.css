@@ -157,6 +157,12 @@ button, .form-button {
     color: white;
     text-align: center;
     margin: 1rem;
+    transition: 0.5s transform;
+}
+
+/* Enlarge buttons on hover */
+button:hover, .form-button:hover {
+    transform: scale(1.1);
 }
 
 /* Media Query for larger screen sizes */
