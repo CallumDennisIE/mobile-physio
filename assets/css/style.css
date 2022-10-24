@@ -38,17 +38,14 @@ h1, h2 {
     font-family: 'Lato', sans-serif;
 }
 
-
-header {
-    text-align: center;
-}
-
 footer {
     text-align: center;
 }
 
-/* Hide header on mobile devices */
+
 h1 {
+    padding: 1rem;
+    /* Hide header on mobile devices */
     display: none;
 }
 
@@ -68,6 +65,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 
 .navbar {
@@ -78,10 +76,6 @@ header {
 .navbar li {
     text-decoration: none;
     list-style: none;
-    padding: 1rem;
-}
-
-h1 {
     padding: 1rem;
 }
 
@@ -161,20 +155,20 @@ footer a:hover {
     width: 80%;
     transition: 0.5s transform;
 }
-
+/* Enlarge testimonial item on hover */
 .testimonial-item:hover {
-    /* Enlarge item */
     transform: scale(1.05);
 }
-
-/* Move individual stars on hover */
+/* Style Font Awesome review stars */
 .testimonial-item i {
     color: gold;
     text-shadow: 2px 2px black;
-    transition: 0.5s transform;
     font-size: xx-large;
-}
 
+/* Move individual stars on hover */
+    transition: 0.5s transform;
+    
+}
 .testimonial-item i:hover {
     transform: translateY(-5px);
 }
