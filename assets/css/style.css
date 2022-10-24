@@ -191,6 +191,10 @@ footer a:hover {
     border-radius: 20px;
 }
 
+.contact-item img {
+    max-width: 100%;
+}
+
 .contact-item h3 {
     text-align: center;
 }
