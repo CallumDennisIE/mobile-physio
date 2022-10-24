@@ -151,18 +151,21 @@ footer a {
 /* Style for Buttons */
 button, .form-button {
     padding: 1rem;
-    background-color: #4EB7DA;
     border: none;
     box-shadow: 5px 5px 5px black;
-    color: white;
     text-align: center;
     margin: 1rem;
-    transition: 0.5s transform;
+    transition: 0.5s transform, color, background-color;
 }
 
-/* Enlarge buttons on hover */
+/* Style buttons on hover */
 button:hover, .form-button:hover {
+    /* Enlarge buttons */
     transform: scale(1.1);
+
+    /* Color buttons background & text */
+    color: white;
+    background-color: #4EB7DA;
 }
 
 /* Media Query for larger screen sizes */
