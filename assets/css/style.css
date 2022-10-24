@@ -145,6 +145,17 @@ footer a {
     padding-bottom: 10%;
 }
 
+/* Style for Buttons */
+button, .form-button {
+    padding: 1rem;
+    background-color: #4EB7DA;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
     #hero-image {
