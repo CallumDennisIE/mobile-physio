@@ -25,11 +25,6 @@ a {
     text-align: center;
 }
 
-/* Aligns text in the header sections */
-.header-section {
-    text-align: center;
-}
-
 /* Standard positional styling for flex containers */
 .flex-container {
     display: flex;
@@ -128,10 +123,6 @@ footer a:hover {
     padding-bottom: 5%;
 }
 
-.about-us h3{
-    text-align: center;
-}
-
 #about-container {
     justify-content: space-around;
     align-items: stretch;
@@ -197,10 +188,6 @@ footer a:hover {
 
 #contact-item {
     flex-basis: 40%;
-}
-
-#contact-item h3 {
-    text-align: center;
 }
 
 #form-container {
