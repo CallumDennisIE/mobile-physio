@@ -69,6 +69,7 @@ footer {
 footer a {
     color: black;
     transition: 0.5s transform;
+    margin-bottom: 15px;
 }
 
 /* Style footer icons on hover */
