@@ -93,6 +93,7 @@ footer a {
     background-color: lightgrey;
     box-shadow: 5px 5px 5px black;
     padding: 10px;
+    border-radius: 20px;
 }
 
 /* Contact Section - Home Page */
