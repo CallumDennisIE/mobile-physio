@@ -30,8 +30,10 @@ a {
     box-shadow: 5px 5px 5px black;
     background-color: lightgray;
     border-radius: 20px;
-  }
-
+}
+.flex-item img {
+    max-width: 100%;
+}
 
 
 
@@ -130,10 +132,6 @@ footer a:hover {
     transform: scale(1.05);
 }
 
-#about-item img {
-    max-width: 100%;
-}
-
 /* Contact Section - Home Page */
 #about-contact-container {
     justify-content: center;
@@ -180,10 +178,6 @@ footer a:hover {
 
 #contact-item {
     flex-basis: 40%;
-}
-
-#contact-item img {
-    max-width: 100%;
 }
 
 #contact-item h3 {
