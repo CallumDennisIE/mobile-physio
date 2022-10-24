@@ -25,7 +25,12 @@ a {
     flex-direction: column;
     gap: 10px;
 }
-
+.flex-item {
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    background-color: lightgray;
+    border-radius: 20px;
+  }
 
 
 
@@ -115,21 +120,17 @@ footer a:hover {
     align-items: stretch;
 }
 
-.about-item {
+#about-item {
     flex-basis: 30%;
-    background-color: lightgrey;
-    box-shadow: 5px 5px 5px black;
-    padding: 10px;
-    border-radius: 20px;
     transition: 0.5s transform;
 }
 
-.about-item:hover {
+#about-item:hover {
     /* Enlarge item */
     transform: scale(1.05);
 }
 
-.about-item img {
+#about-item img {
     max-width: 100%;
 }
 
@@ -148,20 +149,16 @@ footer a:hover {
     gap: 25px;
 }
 
-.testimonial-item {
-    padding: 10px;
-    background-color: lightgrey;
-    box-shadow: 5px 5px 5px black;
-    border-radius: 20px;
+#testimonial-item {
     width: 80%;
     transition: 0.5s transform;
 }
 /* Enlarge testimonial item on hover */
-.testimonial-item:hover {
+#testimonial-item:hover {
     transform: scale(1.05);
 }
 /* Style Font Awesome review stars */
-.testimonial-item i {
+#testimonial-item i {
     color: gold;
     text-shadow: 2px 2px black;
     font-size: xx-large;
@@ -170,7 +167,7 @@ footer a:hover {
     transition: 0.5s transform;
     
 }
-.testimonial-item i:hover {
+#testimonial-item i:hover {
     transform: translateY(-5px);
 }
 
@@ -181,23 +178,19 @@ footer a:hover {
     justify-content: space-around;
 }
 
-.contact-item {
-    flex-basis: 35%;
-    padding: 5%;
-    background-color: lightgray;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 20px;
+#contact-item {
+    flex-basis: 40%;
 }
 
-.contact-item img {
+#contact-item img {
     max-width: 100%;
 }
 
-.contact-item h3 {
+#contact-item h3 {
     text-align: center;
 }
 
-.contact-item form {
+#contact-item form {
     display: flex;
     flex-direction: column;
 }
@@ -251,10 +244,6 @@ button:hover, .form-button:hover {
     }
     #contact-container {
         flex-direction: row;
-    }
-    #contact-item {
-        padding-left: 10%;
-        padding-right: 10%;
     }
     h1 {
         display: inline;
