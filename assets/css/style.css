@@ -127,6 +127,8 @@ footer a {
     flex-basis: 20%;
     padding: 5%;
     background-color: lightgray;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 20px;
 }
 
 .contact-item h3 {
