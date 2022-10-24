@@ -3,22 +3,37 @@
 
 /* https://fonts.google.com/specimen/Nunito?category=Sans+Serif&preview.text=Mobile%20Physio&preview.size=21&preview.text_type=custom#styles */
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* Reset default styling */
 * {
     margin: 0;
     padding: 0;
     border: none;
     font-family: 'Nunito', sans-serif;
 }
-
 a {
     color: black;
     text-decoration: none;
 }
 
+/* Refactored Code: */
+.header-section {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 h1, h2 {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
+
 
 header {
     text-align: center;
@@ -28,6 +43,7 @@ footer {
     text-align: center;
 }
 
+/* Hide header on mobile devices */
 h1 {
     display: none;
 }
@@ -79,16 +95,13 @@ footer a {
     margin-bottom: 15px;
 }
 
-/* Style footer icons on hover */
+/* Style social media icons on hover */
 footer a:hover {
     /* Enlarge icons */
     transform: scale(1.5);
 }
 
 /* About Us */
-.about-header > p{
-    text-align: center;
-}
 .about-us {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -136,10 +149,6 @@ footer a:hover {
 }
 
 /* Testimonial Page */
-.testimonial-header > p {
-    text-align: center;
-}
-
 #testimonial-container {
     display: flex;
     justify-content: center;
@@ -177,9 +186,6 @@ footer a:hover {
 }
 
 /* Contact Page */
-#contact-header > p {
-    text-align: center;
-}
 
 #contact-container {
     display: flex;
@@ -224,13 +230,6 @@ input[type="radio"]{
 /* Only allow vertical resizing, to stop overflowing off of contact-item */
 textarea {
     resize: vertical;
-}
-
-/* 404 Page */
-.text-center {
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
 }
 
 /* Style for Buttons */
