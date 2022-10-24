@@ -205,7 +205,7 @@ button:hover, .form-button:hover {
 /* Media Query for larger screen sizes */
 @media screen and (min-width: 480px) {
     #hero-image {
-        background: url(../images/hero-image-big.jpg) no-repeat center center;
+        background: url(../images/hero-image.jpg) no-repeat center center;
     }
     #about-container {
         flex-direction: row;
