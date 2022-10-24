@@ -103,6 +103,10 @@ footer a:hover {
     border-radius: 20px;
 }
 
+.about-item img {
+    max-width: 100%;
+}
+
 /* Contact Section - Home Page */
 #about-contact-container {
     display: flex;
