@@ -30,6 +30,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Standard styling for flex items */
