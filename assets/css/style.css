@@ -149,6 +149,12 @@ footer a:hover {
     box-shadow: 5px 5px 5px black;
     border-radius: 20px;
     width: 80%;
+    transition: 0.5s transform;
+}
+
+.testimonial-item:hover {
+    /* Enlarge item */
+    transform: scale(1.05);
 }
 
 /* Move individual stars on hover */
