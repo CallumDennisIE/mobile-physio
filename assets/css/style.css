@@ -91,6 +91,8 @@ footer a {
 .about-item {
     flex-basis: 30%;
     background-color: lightgrey;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
 }
 
 /* Contact Section - Home Page */
