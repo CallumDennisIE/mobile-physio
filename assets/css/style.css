@@ -49,6 +49,7 @@ h1 {
     display: none;
 }
 
+/* Highlight header text on hover */
 header a:hover {
     text-decoration: underline;
 }
