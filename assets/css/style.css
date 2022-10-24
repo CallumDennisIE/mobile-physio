@@ -156,6 +156,7 @@ button, .form-button {
     text-align: center;
     margin: 1rem;
     transition: 0.5s transform, color, background-color, box-shadow;
+    border-radius: 20px;
 }
 
 /* Style buttons on hover */
