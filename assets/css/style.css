@@ -20,6 +20,11 @@ a {
     text-decoration: none;
 }
 
+/* Class to center text elements */
+.center {
+    text-align: center;
+}
+
 /* Aligns text in the header sections */
 .header-section {
     text-align: center;
@@ -198,13 +203,10 @@ footer a:hover {
     text-align: center;
 }
 
-#contact-item form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form-input {
-    display: flex;
+#form-container {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
 /* Add margin to add space between radio input and label */ 
