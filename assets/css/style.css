@@ -146,10 +146,11 @@ footer a:hover {
     flex-direction: column;
     margin-top: 5%;
     margin-bottom: 5%;
+    gap: 10px;
 }
 
 .contact-item {
-    flex-basis: 20%;
+    flex-basis: 35%;
     padding: 5%;
     background-color: lightgray;
     box-shadow: 2px 2px 5px black;
