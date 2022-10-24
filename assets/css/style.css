@@ -204,6 +204,11 @@ footer a:hover {
     display: flex;
 }
 
+/* Only allow vertical resizing, to stop overflowing off of contact-item */
+textarea {
+    resize: vertical;
+}
+
 /* 404 Page */
 .text-center {
     text-align: center;
