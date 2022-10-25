@@ -79,7 +79,20 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
     - The page contains a back button, allowing the user to return to their previous page, which would be the contact page.
 
         ![Form Submit back button](/assets/images/README/submit-button.png)
-        
+- Testimonials Page:
+    - This page shows reviews from previous pateints, creating trust between the user and the Mobile Physio company.
+    - Desktop View:
+
+        ![Testimonial page on desktop](/assets/images/README/testimonial-desktop.png)
+    - Mobile View:
+
+        ![Testimonial page on desktop](/assets/images/README/testimonial-mobile.png)
+    - The individual review sections expand when hovered over, this highlights to the user the review that they are looking at.
+
+        ![Testimonial items enlarging when hovered over](/assets/images/README/testimonial-hover.png)
+    - The review stars also animate when hovered over, this makes the website appear more dynamic and less flat.
+
+        ![Animation of review stars on testimonial page when hovered over](/assets/images/README/testimonial-star-hover.png)
 ## Technologies Used
 
 ## Deployment & Local Development
