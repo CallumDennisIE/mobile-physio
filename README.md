@@ -6,8 +6,8 @@
 
 
 ## Contents
-* [About]
-* [User Experience](#about)
+* [About](#about)
+* [User Experience](#user-experience)
 * [Design](#design)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
@@ -35,7 +35,22 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
         ![Navbar with About page link underlined](/assets/images/README/navbar-ul-link.png)
 
         ![Navbar with Page title link underlined](/assets/images/README/navbar-ul-title.png)
-- 404 Page:
+- Footer:
+    - The footer is located at the bottom of each page. It contains social media links to Instagram, Facebook and Twitter.
+    - The footer links open in a new tab, to allow the user to remain on the Mobile Physio site without having to navigate back through their search history.
+    - Footer uses Font Awesome Icons that are widely recognisable with the associated Social Media sites.
+    - Footer Mobile:
+
+        ![Footer on a mobile device](/assets/images/README/footer-mobile.png)
+    - Footer Desktop:
+
+        ![Footer on a desktop device](/assets/images/README/footer-desktop.png)
+    - Footer icons will enlarge when hovered over, allowing users to get feedback that these are links that can be clicked.
+
+        ![Footer icon being enlarged when hovered over](/assets/images/README/footer-enlarge.png)
+    
+
+- Custom 404 Page:
     - This page will display when a requested when the requested page is not able to be displayed. For example a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
     - This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the nabar and footer elemnts, to allow the user to continue site navigation.
     - Default GitHub Pages 404 Page:
