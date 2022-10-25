@@ -26,10 +26,16 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 ![Navbar displayed on the desktop](/assets/images/README/navbar-desktop.png)
 - Navbar:
     - Included on all pages throughout the website. Design is consistent on all pages to provde a consitent user experience.
-    - Contains the page title (which links to the index.html page) and links to the About, Testimonials and Contact Pages.
+    - Contains the Website title (which links to the index.html page) and links to the About, Testimonials and Contact Pages.
     - On mobile devices, the page title is hidden to allow the navigation links to fit on the screen.
 
-![Navbar displayed on a mobile device](/assets/images/README/navbar-mobile.png)
+        ![Navbar displayed on a mobile device](/assets/images/README/navbar-mobile.png)
+    - Website title and links are underlined when hovered over, this provides extra feedback to the user that these words are links.
+
+        ![Navbar with About page link underlined](/assets/images/README/navbar-ul-link.png)
+        
+        ![Navbar with Page title link underlined](/assets/images/README/navbar-ul-title.png)
+
 ## Technologies Used
 
 ## Deployment & Local Development
