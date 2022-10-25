@@ -23,10 +23,11 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 ## Design
 
 ## Features
-![Navbar displayed on the desktop](/assets/images/README/navbar-desktop.png)
 - Navbar:
     - Included on all pages throughout the website. Design is consistent on all pages to provde a consitent user experience.
     - Contains the Website title (which links to the index.html page) and links to the About, Testimonials and Contact Pages.
+
+        ![Navbar displayed on the desktop](/assets/images/README/navbar-desktop.png)
     - On mobile devices, the page title is hidden to allow the navigation links to fit on the screen.
 
         ![Navbar displayed on a mobile device](/assets/images/README/navbar-mobile.png)
@@ -48,8 +49,6 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
     - Footer icons will enlarge when hovered over, allowing users to get feedback that these are links that can be clicked.
 
         ![Footer icon being enlarged when hovered over](/assets/images/README/footer-enlarge.png)
-    
-
 - Custom 404 Page:
     - This page will display when a requested when the requested page is not able to be displayed. For example a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
     - This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the nabar and footer elemnts, to allow the user to continue site navigation.
@@ -65,7 +64,18 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
     - The custom 404 page also includes a 'Go Back' button which will return the user to the previous page in their history. Allowing the user to quickly and easily continue site navigation.
 
-        ![404 Page on a desktop](/assets/images/README/404-button.png)
+        ![404 Page back button](/assets/images/README/404-button.png)
+- Form Submit Page:
+    - This page will display when the form has been successfully submited.
+    - This provides the user feedback and informs them that the form has been successfully sent.
+
+        ![Form Submit Page on mobile](/assets/images/README/submit-mobile.png)
+
+        ![Form Submit Page on desktop](/assets/images/README/submit-desktop.png)
+    - The page contains a back button, allowing the user to return to their previous page, which would be the contact page.
+
+        ![Form Submit back button](/assets/images/README/submit-button.png)
+        
 ## Technologies Used
 
 ## Deployment & Local Development
