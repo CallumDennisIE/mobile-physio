@@ -33,9 +33,24 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
     - Website title and links are underlined when hovered over, this provides extra feedback to the user that these words are links.
 
         ![Navbar with About page link underlined](/assets/images/README/navbar-ul-link.png)
-        
-        ![Navbar with Page title link underlined](/assets/images/README/navbar-ul-title.png)
 
+        ![Navbar with Page title link underlined](/assets/images/README/navbar-ul-title.png)
+- 404 Page:
+    - This page will display when a requested when the requested page is not able to be displayed. For example a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
+    - This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the nabar and footer elemnts, to allow the user to continue site navigation.
+    - Default GitHub Pages 404 Page:
+
+        ![404 Page on a mobile device](/assets/images/README/404-default.png)
+    - Mobile View:
+
+        ![404 Page on a mobile device](/assets/images/README/404-mobile.png)
+    - Desktop View:
+
+        ![404 Page on a desktop](/assets/images/README/404-desktop.png)
+
+    - The custom 404 page also includes a 'Go Back' button which will return the user to the previous page in their history. Allowing the user to quickly and easily continue site navigation.
+
+        ![404 Page on a desktop](/assets/images/README/404-button.png)
 ## Technologies Used
 
 ## Deployment & Local Development
