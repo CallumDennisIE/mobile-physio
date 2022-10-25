@@ -7,6 +7,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/CallumDennisIE/mobile-physio?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/CallumDennisIE/mobile-physio?style=for-the-badge)
 
+[View the live project here.](https://callumdennisie.github.io/mobile-physio/)
 
 ## Contents
 * [About](#about)
