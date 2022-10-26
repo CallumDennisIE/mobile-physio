@@ -93,6 +93,17 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
     - The review stars also animate when hovered over, this makes the website appear more dynamic and less flat.
 
         ![Animation of review stars on testimonial page when hovered over](/assets/images/README/testimonial-star-hover.png)
+- About Page:
+    - This page is intended as a landing page for users. It provides infomration about the Mobile Physiocompany and the services they provide.
+    - A large hero image shows the user a physiotherpaist working on a patient, allowing them to understand the service provided.
+        - Hero Desktop:
+
+        ![Testimonial items enlarging when hovered over](/assets/images/README/about-hero-desktop.png)
+        - Hero Mobile:
+        
+        ![Testimonial items enlarging when hovered over](/assets/images/README/about-hero-mobile.png)
+    - The service cards show the three different services that Mobile Physio provides, these cards are enlarged on hover.
+    - The contact section is used to allow users to easily navigate to the contact page. This has a button that enlarges and changes colur on hover.
 ## Technologies Used
 
 ## Deployment & Local Development
