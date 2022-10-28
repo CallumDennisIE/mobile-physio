@@ -133,6 +133,29 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
     - The additional info text box is resizable vertically, to allow users to type more info if they require it. The reason horizontal resizablity is not allowed, is due to the fact that it would bring the text off of the screen, whic would look un-professional.
 ## Technologies Used
+### Languages Used
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs Used
+- Font Awesome:
+    - Font Awesome Icons were used for the contact form, social media footer and the testimonial stars.
+- Git:
+    - Version control was performed through the use of Git commands
+- Github:
+    GitHub was used for the hosting of the project. GitHub Pages was also used to host the live website link.
+- Gitpod:
+    - Gitpod was used as a a browser based cloud development environment.
+- TinyPNG:
+    - TinyPNG was used to compress all images in the project and REAME, that had an original file size below 5MB.
+- Compressor.io:
+    - Compressor.io was used to compress all images in the project and REAME, that had an original file size above 5MB.
+- Balsamiq:
+    - The wireframes were created using the Balsamiq software.
+- Google Fonts:
+    - The fonts 'Cabin' and 'Nunito' were imported from Google Fonts, Cabin was used for the headings and Favicon, Nunito was used for the remaining text.
+- Favicon:
+    - A favicon was generated and was used in the project files.
 
 ## Deployment & Local Development
 
