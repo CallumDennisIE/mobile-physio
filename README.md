@@ -312,16 +312,7 @@ The additional info text box is resizable vertically, to allow users to type mor
 [Back to top!](#mobile-physio)
 
 ## Testing
-### Bugs:
-About page, contact section uses the same id as the main contact section div.
-
-![CSS Image](bug1_css.png)
-![CSS Image](bug1_browser.png)
-![CSS Image](bug1_media.png)
-![CSS Image](bug1_browser_fix.png)
-![CSS Image](bug1_css_fix.png)
-
-[Back to top!](#mobile-physio)
+[View the project testing document here.](TESTING.md)
 
 ## Credits
 
