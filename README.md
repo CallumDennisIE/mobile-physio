@@ -113,6 +113,25 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
         - Contact section with enlarged button:
 
         ![Contact button enlarged as mouse hovers on it](/assets/images/README/about-contact-hover.png)
+- Contact Page:
+    - This page is split between two elemtns, the clinic information card and the form card.
+        - Contact Page on Desktop:
+
+        ![Contact page on desktop](/assets/images/README/contact-desktop.png)
+        - Contact Page on Mobile:
+
+        ![Contact page on desktop](/assets/images/README/contact-mobile.png)
+    - The clinic information card provides the user the necessary details to visit Mobile Physio ushc as address and opening hours. It uses widely recognised Font Awesome icons to highlight the use meaning of the text.
+
+    - The form card allows the user to input the necessary details to book an appointment. Most of the inputs are required to submit the form (except for additional info and date of birth), this stops the user from trying to book an appointment, without the necessary information.
+
+        ![Contact page form showing required fields](/assets/images/README/contact-required.png)
+
+    - The form card also has a submit and reset button that enlarge on hover. When the submit button is pressed and the required fields are filled, the user is sent to the Form Submit page, when the reset button is pressed, the form is cleared.
+
+        ![Contact page form with buttons enlarged on hover](/assets/images/README/contact-hover.png)
+
+    - The additional info text box is resizable vertically, to allow users to type more info if they require it. The reason horizontal resizablity is not allowed, is due to the fact that it would bring the text off of the screen, whic would look un-professional.
 ## Technologies Used
 
 ## Deployment & Local Development
