@@ -64,7 +64,7 @@ Website title and links are underlined when hovered over, this provides extra fe
 
 </details>
         
-
+***  
 ### Footer:
 The footer is located at the bottom of each page. It contains social media links to Instagram, Facebook and Twitter.
 The footer links open in a new tab, to allow the user to remain on the Mobile Physio site without having to navigate back through their search history.
@@ -93,7 +93,7 @@ Footer icons will enlarge when hovered over, allowing users to get feedback that
 
 </details>
 
-
+***  
 ### Custom 404 Page:
 This page will display when a requested when the requested page is not able to be displayed. For example a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
 
@@ -130,7 +130,7 @@ The custom 404 page also includes a 'Go Back' button which will return the user 
 
 </details>
 
-
+***  
 ### Form Submit Page:
 This page will display when the form has been successfully submited.
 This provides the user feedback and informs them that the form has been successfully sent.
@@ -158,7 +158,7 @@ The page contains a back button, allowing the user to return to their previous p
 
 </details>
 
-
+***  
 ### Testimonials Page:
 This page shows reviews from previous pateints, creating trust between the user and the Mobile Physio company.
 
@@ -194,7 +194,7 @@ The review stars also animate when hovered over, this makes the website appear m
 
 </details>
 
-        
+***         
 ### About Page:
 This page is intended as a landing page for users. It provides infomration about the Mobile Physiocompany and the services they provide.
 A large hero image shows the user a physiotherpaist working on a patient, allowing them to understand the service provided.
@@ -238,7 +238,7 @@ The contact section is used to allow users to easily navigate to the contact pag
 
 </details>
 
-        
+***        
 ### Contact Page:
 This page is split between two elemtns, the clinic information card and the form card.
        
