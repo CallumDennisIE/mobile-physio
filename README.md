@@ -358,6 +358,21 @@ The additional info text box is resizable vertically, to allow users to type mor
 
 ## Deployment & Local Development
 
+### Deployment
+The Mobile Physio project was deployed using GitHub Pages.
+
+[You can view the live site through this link.](https://callumdennisie.github.io/mobile-physio/)
+
+Steps to deploy this project using GitHub Pages:
+1. Navigate to the GitHub repository for this project: [CallumDennisIE/mobile-physio](https://github.com/CallumDennisIE/mobile-physio).
+2. Click on the 'Settings' tab: [CallumDennisIE/mobile-physio/settings](https://github.com/CallumDennisIE/mobile-physio/settings).
+3. Click on the 'Pages' section: [CallumDennisIE/mobile-physio/settings/pages](https://github.com/CallumDennisIE/mobile-physio/settings/pages)
+4. Select the 'Main' source from the dropdown.
+5. Wait a few minutes for the site to deploy.
+6. The project will be published and a link will be provided to the live site: [Example link](https://callumdennisie.github.io/mobile-physio/).
+
+For more infomration on how to deploy a site with GitHub pages plaease click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
 [Back to top!](#mobile-physio)
 
 ## Testing
