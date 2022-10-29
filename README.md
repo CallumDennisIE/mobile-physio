@@ -365,4 +365,17 @@ The additional info text box is resizable vertically, to allow users to type mor
 
 ## Credits
 
+### Code
+
+The back buttons used on both the Form Submit page and the Custom 404 page, used code from W3Schools.
+
+[Link to code used](https://www.w3schools.com/jsref/met_his_back.asp).
+
+The images for this project were taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+
+
+
+
+
+
 [Back to top!](#mobile-physio)
