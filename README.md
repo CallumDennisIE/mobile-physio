@@ -79,6 +79,15 @@ The website uses mostly white and light grey colours, to create a clean and mode
 
 ### Imagery
 
+#### Hero-Image:
+The hero-image was used as it shows a physiotherapist working on a client, allowing users to udnerstand the work perfromed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recongisable theme throughout the site.
+
+#### Service Card Images:
+The images used for the service cards were picked as they show a Physio performing the services descibed below them. They also all feature the hands of the physio, which links them to the hero-image. Two out of three of the images also feature a blue colour, which matches the blue of the hero-image tape.
+
+#### Contact Page Images:
+The image used in the contact page is of a medical reception, this is used as it is located with the contact details of the clinic, linking the image to the content. The image also uses blue colours, linking them to the images used throughout the site.
+
 ### Wireframes
 
 About Page Wireframes:
