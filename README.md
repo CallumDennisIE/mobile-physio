@@ -12,12 +12,30 @@
 ## Contents
 * [About](#about)
 * [User Experience](#user-experience)
+    * [User Stories](#user-stories)
 * [Design](#design)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
 * [Features](#features)
+    * [Navber](#navbar)
+    * [Footer](#footer)
+    * [Custom 404 Page](#custom-404-page)
+    * [Form Submit Page](#form-submit-page)
+    * [Testimonials Page](#testimonials-page)
+    * [About Page](#about-page)
+    * [Contact Page](#contact-page)
 * [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 * [Deployment & Local Development](#deployment--local-development)
+    * [Deployment](#deployment)
+    * [Local Development](#local-development)
 * [Testing](#testing)
 * [Credits](#credits)
+    * [Code](#code)
+    * [Media](#media)
 
 ## About
 Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target audeince for this site are people with injuries looking for physiotherapy treaments to asssit in recovery. This site will allow users to see the services offered by Mobile Physio, allow them to read reviews from previous pateints and book an appointment.
@@ -26,9 +44,17 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
 ## User Experience
 
+### User Stories
+
 [Back to top!](#mobile-physio)
 
 ## Design
+
+### Colour Scheme
+
+### Typography
+
+### Imagery
 
 ### Wireframes
 
@@ -409,11 +435,8 @@ The back buttons used on both the Form Submit page and the Custom 404 page, used
 
 [Link to code used](https://www.w3schools.com/jsref/met_his_back.asp).
 
+### Media
+
 The images for this project were taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
-
-
-
-
-
 
 [Back to top!](#mobile-physio)
