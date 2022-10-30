@@ -46,6 +46,20 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
 ### User Stories
 
+#### Goals of a First Time Visitor:
+* As a first time visitor, I want to know what Mobile Physio is and the services they provide.
+* As a first time visitor, I want to be able to easily naviaget through the site.
+
+#### Goals of a Returning Visitor:
+* As a returning visitor, I want to be able to contact Mobile Physio.
+* As a returning visitor, I want to be able to navigate to Mobile Physio's Social Media pages.
+
+#### Goals of a Frequent Visitor:
+* As a frequent visitor, I want to be able to book an appointment with Mobile Physio.
+* As a frequent visitor, I want to know that my booking was successfully submited.
+
+To view the testing of the User Stories, check the TESTING.md file, located [here](TESTING.md).
+
 [Back to top!](#mobile-physio)
 
 ## Design
