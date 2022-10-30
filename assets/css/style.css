@@ -190,7 +190,7 @@ footer a:hover {
 #contact-item {
     flex-basis: 40%;
 }
-/* Wraps form elemnts to new lines and creates space around */
+/* Wraps form elements to new lines and creates space around */
 #form-container {
     flex-wrap: wrap;
     align-content: center;
@@ -220,7 +220,7 @@ button, .form-button {
     box-shadow: 5px 5px 2px black;
     border-radius: 20px;
     
-    /* Set trastion duration and values for on hover effect */
+    /* Set transition duration and values for on hover effect */
     transition: 0.5s transform, color, background-color, box-shadow;
 }
 
