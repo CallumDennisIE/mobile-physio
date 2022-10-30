@@ -19,7 +19,7 @@
     * [Imagery](#imagery)
     * [Wireframes](#wireframes)
 * [Features](#features)
-    * [Navber](#navbar)
+    * [Navbar](#navbar)
     * [Footer](#footer)
     * [Custom 404 Page](#custom-404-page)
     * [Form Submit Page](#form-submit-page)
@@ -38,7 +38,7 @@
     * [Media](#media)
 
 ## About
-Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target audeince for this site are people with injuries looking for physiotherapy treaments to asssit in recovery. This site will allow users to see the services offered by Mobile Physio, allow them to read reviews from previous pateints and book an appointment.
+Mobile Physio is a site for a Dublin-based Physiotherapy Clinic. The target audience for this site is people with injuries looking for physiotherapy treatments to assist in recovery. This site will allow users to see the services offered by Mobile Physio, allow them to read reviews from previous patients and book an appointment.
 
 [Back to top!](#mobile-physio)
 
@@ -46,9 +46,9 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
 ### User Stories
 
-#### Goals of a First Time Visitor:
-* As a first time visitor, I want to know what Mobile Physio is and the services they provide.
-* As a first time visitor, I want to be able to easily naviaget through the site.
+#### Goals of a First-Time Visitor:
+* As a first-time visitor, I want to know what Mobile Physio is and the services they provide.
+* As a first-time visitor, I want to be able to easily navigate through the site.
 
 #### Goals of a Returning Visitor:
 * As a returning visitor, I want to be able to contact Mobile Physio.
@@ -56,7 +56,7 @@ Mobile Physio is a site for a Dublin based Physiotherapy Clinic. The target aude
 
 #### Goals of a Frequent Visitor:
 * As a frequent visitor, I want to be able to book an appointment with Mobile Physio.
-* As a frequent visitor, I want to know that my booking was successfully submited.
+* As a frequent visitor, I want to know that my booking was successfully submitted.
 
 To view the testing of the User Stories, check the TESTING.md file, located [here](TESTING.md).
 
@@ -66,7 +66,7 @@ To view the testing of the User Stories, check the TESTING.md file, located [her
 
 ### Colour Scheme
 
-The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the [hero-image](#about-page), this creates a theme thorughout the project as reoccuring colours are used.
+The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the [hero image](#about-page), this creates a theme throughout the project as recurring colours are used.
 
 <details>
 <summary>Click for Image: Colour Palette</summary>
@@ -86,11 +86,11 @@ The fonts used in the project have been imported from [Google Fonts](https://fon
 
 ### Imagery
 
-#### Hero-Image:
-The [hero-image](#about-page) was used as it shows a physiotherapist working on a client, allowing users to udnerstand the work perfromed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recongisable theme throughout the site.
+#### Hero Image:
+The [hero image](#about-page) was used as it shows a physiotherapist working on a client, allowing users to understand the work performed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recognisable theme throughout the site.
 
 #### Service Card Images:
-The images used for the [service cards](#about-page), were picked as they show a Physio performing the services descibed below them. They also all feature the hands of the physio, which links them to the [hero-image](#about-page). Two out of three of the images also feature a blue colour, which matches the blue of the hero-image tape.
+The images used for the [service cards](#about-page), were picked as they show a Physio performing the services described below them. They also all feature the hands of the physio, which links them to the [hero image](#about-page). Two out of three of the images also feature a blue colour, which matches the blue of the hero-image tape.
 
 #### Contact Page Images:
 The image used in the [contact page](#contact-page) is of a medical reception, this is used as it is located with the contact details of the clinic, linking the image to the content. The image also uses blue colours, linking them to the images used throughout the site.
@@ -148,7 +148,7 @@ Contact Page Wireframes:
 
 ## Features
 ### Navbar:
-Included on all pages throughout the website. Design is consistent on all pages to provde a consitent user experience.
+Included on all pages throughout the website. Design is consistent on all pages to provide a consistent user experience.
 Contains the Website title (which links to the [About page](#about-page)) and additional links to the [About](#about-page), [Testimonials](#testimonials-page) and [Contact](#contact-page) Pages.
 
 <details>
@@ -209,7 +209,7 @@ Footer icons will enlarge when hovered over, allowing users to get feedback that
 
 ***  
 ### Custom 404 Page:
-This page will display when a requested when the requested page is not able to be displayed. For example a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
+This page will display when the requested page is not able to be displayed. For example, a user who navigates to 'https://callumdennisie.github.io/mobile-physio/help.html', will be connected to the custom 404 page, as help.html does not exist within this project.
 
 
 <details>
@@ -226,7 +226,7 @@ This page will display when a requested when the requested page is not able to b
 
 </details>
 
-This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the [Navbar](#navbar) and [Footer](#footer) elemnts, to allow the user to continue site navigation.
+This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the [Navbar](#navbar) and [Footer](#footer) elements, to allow the user to continue site navigation.
 
 <details>
 <summary>Click for Image: Default GitHub Pages 404 Page</summary>
@@ -246,7 +246,7 @@ The custom 404 page also includes a 'Go Back' button which will return the user 
 
 ***  
 ### Form Submit Page:
-This page will display when the form has been successfully submited.
+This page will display when the form has been successfully submitted.
 This provides the user feedback and informs them that the form has been successfully sent.
 
 <details>
@@ -274,7 +274,7 @@ The page contains a back button, allowing the user to return to their previous p
 
 ***  
 ### Testimonials Page:
-This page shows reviews from previous pateints, creating trust between the user and the Mobile Physio company.
+This page shows reviews from previous patients, creating trust between the user and the Mobile Physio company.
 
 <details>
 <summary>Click for Image: Testimonials - Desktop</summary>
@@ -310,8 +310,8 @@ The review stars also animate when hovered over, this makes the website appear m
 
 ***         
 ### About Page:
-This page is intended as a landing page for users. It provides infomration about the Mobile Physio company and the services they provide.
-A large hero image shows the user a physiotherpaist working on a patient, allowing them to understand the service provided.
+This page is intended as a landing page for users. It provides information about the Mobile Physio company and the services they provide.
+A large hero image shows the user a physiotherapist working on a patient, allowing them to understand the service provided.
 
 <details>
 <summary>Click for Image: About Page Hero Image - Desktop</summary>
@@ -343,7 +343,7 @@ The service cards show the three different services that Mobile Physio provides,
 
 </details>
 
-The contact section is used to allow users to easily navigate to the [Contact](#contact-page) page. This has a button that enlarges and changes colur on hover.
+The contact section is used to allow users to easily navigate to the [Contact](#contact-page) page. This has a button that enlarges and changes colour on hover.
 
 <details>
 <summary>Click for Image: About Page Contact Section - Hover</summary>
@@ -354,7 +354,7 @@ The contact section is used to allow users to easily navigate to the [Contact](#
 
 ***        
 ### Contact Page:
-This page is split between two elemtns, the clinic information card and the form card.
+This page is split between two elements, the clinic information card and the form card.
        
 <details>
 <summary>Click for Image: Contact Page - Desktop</summary>
@@ -370,7 +370,7 @@ This page is split between two elemtns, the clinic information card and the form
 
 </details>         
        
-The clinic information card provides the user the necessary details to visit Mobile Physio ushc as address and opening hours. It uses widely recognised [Font Awesome](https://fontawesome.com/) icons to highlight the use meaning of the text.
+The clinic information card provides the user with the necessary details to visit Mobile Physio such as address and opening hours. It uses widely recognised [Font Awesome](https://fontawesome.com/) icons to highlight the use meaning of the text.
 
 The form card allows the user to input the necessary details to book an appointment. Most of the inputs are required to submit the form (except for additional info and date of birth), this stops the user from trying to book an appointment, without the necessary information.
 
@@ -381,7 +381,7 @@ The form card allows the user to input the necessary details to book an appointm
 
 </details>  
 
-The form card also has a submit and reset button that enlarge on hover. When the submit button is pressed and the required fields are filled, the user is sent to the [Form Submit](#form-submit-page) page, when the reset button is pressed, the form is cleared.
+The form card also has a submit and reset button that enlarges on hover. When the submit button is pressed and the required fields are filled, the user is sent to the [Form Submit](#form-submit-page) page, when the reset button is pressed, the form is cleared.
 
 <details>
 <summary>Click for Image: Contact Page Form - Hover</summary>
@@ -390,7 +390,7 @@ The form card also has a submit and reset button that enlarge on hover. When the
 
 </details>  
 
-The additional info text box is resizable vertically, to allow users to type more info if they require it. The reason horizontal resizablity is not allowed, is due to the fact that it would bring the text off of the screen, whic would look un-professional.
+The additional info text box is resizable vertically, to allow users to type more info if they require it. The reason that re-sizing the box horizontally is not allowed, is because it would bring the text off of the screen, which would look unprofessional.
 
 [Back to top!](#mobile-physio)
 
@@ -407,17 +407,17 @@ The additional info text box is resizable vertically, to allow users to type mor
 - [GitHub](https://github.com/):
     - GitHub was used for the hosting of the project. GitHub Pages was also used to host the live website link.
 - [Gitpod](https://www.gitpod.io/):
-    - Gitpod was used as a a browser based cloud development environment.
+    - Gitpod was used as a browser-based cloud development environment.
 - [TinyPNG](https://tinypng.com/):
-    - TinyPNG was used to compress all images in the project and REAME, that had an original file size below 5MB.
+    - TinyPNG was used to compress all images in the project and README, that had an original file size below 5MB.
 - [Compressor.io](https://compressor.io/):
-    - Compressor.io was used to compress all images in the project and REAME, that had an original file size above 5MB.
+    - Compressor.io was used to compress all images in the project and README, that had an original file size above 5MB.
 - [Balsamiq](https://balsamiq.com/):
     - The [wireframes](#wireframes) were created using the Balsamiq software.
 - [Google Fonts](https://fonts.google.com/):
     - The fonts [Lato](https://fonts.google.com/specimen/Lato), [Cabin](https://fonts.google.com/specimen/Cabin) and [Nunito](https://fonts.google.com/specimen/Nunito) were imported from Google Fonts.
 - [Favicon](https://favicon.io/):
-    - A favicon was generated and was used in the project files.
+    - A favicon was generated and used in the project files.
 - [Coolers](https://coolors.co/):
     - The colour palette was created using coolers.
 - [W3C Validator](https://validator.w3.org/)
@@ -444,7 +444,7 @@ Steps to deploy this project using GitHub Pages:
 5. Wait a few minutes for the site to deploy.
 6. The project will be published and a link will be provided to the live site: [Example link](https://callumdennisie.github.io/mobile-physio/).
 
-For more infomration on how to deploy a site with GitHub pages, plaease click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+For more information on how to deploy a site with GitHub pages, please click [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 ***
 ### Local Development
@@ -453,20 +453,20 @@ Steps to fork this project using GitHub:
 1. Navigate to the GitHub repository for this project: [CallumDennisIE/mobile-physio](https://github.com/CallumDennisIE/mobile-physio).
 2. Click the 'Fork' button (top right-hand side of the repository page).
 
-For more infomration on how to fork a GitHub repository plaease click [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+For more information on how to fork a GitHub repository please click [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 Steps to clone this project using GitHub:
 1. Navigate to the GitHub repository for this project: [CallumDennisIE/mobile-physio](https://github.com/CallumDennisIE/mobile-physio).
 2. Click on the 'Code' button, located above the project files.
-3. Select 'HTTPS' as the method to clone the repositoy.
+3. Select 'HTTPS' as the method to clone the repository.
 4. Copy the link provided, located under 'HTTPS': https://github.com/CallumDennisIE/mobile-physio.git
-5. Open the Terminal in the location you would like the reposityo to be cloned to.
+5. Open the Terminal in the location you would like the repository to be cloned to.
 6. Type `git clone` and then the link provided in step 4:
 
 ``` $ git clone  https://github.com/CallumDennisIE/mobile-physio.git ```
 
 
-For more infomration on how to clone a GitHub repository plaease click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+For more information on how to clone a GitHub repository please click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 
 [Back to top!](#mobile-physio)
@@ -478,7 +478,7 @@ For more infomration on how to clone a GitHub repository plaease click [here](ht
 
 ### Code
 
-The back buttons used on both the [Form Submit](#form-submit-page) page and the [Custom 404](#custom-404-page) page, used code from [W3Schools](https://www.w3schools.com).
+The back buttons used on both the [Form Submit](#form-submit-page) page and the [Custom 404](#custom-404-page) page used code from [W3Schools](https://www.w3schools.com).
 
 [Link to code used](https://www.w3schools.com/jsref/met_his_back.asp).
 
