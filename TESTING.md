@@ -40,9 +40,52 @@ The [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) was used to val
 ### Lighthouse
 The Chrome Developer Tool Lighthouse was used to test the following factors across the project: performance, accessibility, best practices and SEO.
 
-Desktop Results:
+#### Desktop Results:
 
-Mobile Results:
+
+About Page Results:
+
+![Lighthouse About Page Results](/assets/images/TESTING/lighthouse-about-desktop.png)
+
+Contact Page Results:
+
+![Lighthouse Contact Page Results](/assets/images/TESTING/lighthouse-contact-desktop.png)
+
+Testimonial Page Results:
+
+![Lighthouse Testimonial Page Results](/assets/images/TESTING/lighthouse-testimonial-desktop.png)
+
+Submit Page Results:
+
+![Lighthouse Submit Page Results](/assets/images/TESTING/lighthouse-submit-desktop.png)
+
+Custom 404 Page Results:
+
+![Lighthouse Custom 404 Page Results](/assets/images/TESTING/lighthouse-404-desktop.png)
+
+***
+#### Mobile Results:
+
+About Page Results:
+
+![Lighthouse About Page Results](/assets/images/TESTING/lighthouse-about-mobile.png)
+
+Contact Page Results:
+
+![Lighthouse Contact Page Results](/assets/images/TESTING/lighthouse-contact-mobile.png)
+
+Testimonial Page Results:
+
+![Lighthouse Testimonial Page Results](/assets/images/TESTING/lighthouse-testimonial-mobile.png)
+
+Submit Page Results:
+
+![Lighthouse Submit Page Results](/assets/images/TESTING/lighthouse-submit-mobile.png)
+
+Custom 404 Page Results:
+
+![Lighthouse Custom 404 Page Results](/assets/images/TESTING/lighthouse-404-mobile.png)
+
 
 ### WAVE
 The WAVE web accessibility evaluation tool was used on each of the pages of the project. The results are below:
