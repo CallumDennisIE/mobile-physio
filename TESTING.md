@@ -215,8 +215,40 @@ The general tests are performed on all of the pages on the site, as these featur
 
 ## Bugs:
 ### Known Bugs
+None
 
 ### Solved Bugs
-On the about page, the contact section uses the same id as the main contact section div.
+#### About & Contact Page: Re-used ID's
+The ID: `contact-container` was used twice in the code, on the about page and the contact page. As the contact page used a media breakpoint to chnage the flex-direction to row, this meant that the contact text on the About page was also merged onto a single row.
+
+<details>
+<summary>Click for Image: Re-used IDs bug - Initial Browser Output</summary>
+
+![Re-used IDs bug inital in the browser](/assets/images/TESTING/bug-reused-id-initial.png)
+
+</details> 
+
+<details>
+<summary>Click for Image: Re-used IDs bug - Initial CSS Code</summary>
+
+![Re-used IDs bug inital CSS](/assets/images/TESTING/bug-reused-id-initial-css.png)
+
+</details>  
+
+This was fixed by renaming the ID of the About page contact section to `about-contact-container`.
+
+<details>
+<summary>Click for Image: Re-used IDs bug - Fixed Browser Output</summary>
+
+![Re-used IDs bug fixed in the browser](/assets/images/TESTING/bug-reused-id-fix.png)
+
+</details> 
+
+<details>
+<summary>Click for Image: Re-used IDs bug - Fixed CSS Code</summary>
+
+![Re-used IDs bug fixed CSS](/assets/images/TESTING/bug-reused-id-fix-css.png)
+
+</details>  
 
 [Back to top!](#mobile-physio---testing)
