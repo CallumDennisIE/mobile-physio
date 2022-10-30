@@ -66,6 +66,15 @@ To view the testing of the User Stories, check the TESTING.md file, located [her
 
 ### Colour Scheme
 
+The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the Hero Image, this creates a theme thorughout the project as reoccuring colours are used.
+
+<details>
+<summary>Click for Image: Colour Palette</summary>
+
+![Coolors Colour Palette](/assets/images/README/design-colour-palette.png)
+
+</details>
+
 ### Typography
 
 ### Imagery
@@ -393,6 +402,14 @@ The additional info text box is resizable vertically, to allow users to type mor
     - The fonts 'Cabin' and 'Nunito' were imported from Google Fonts, Cabin was used for the headings and Favicon, Nunito was used for the remaining text.
 - [Favicon](https://favicon.io/):
     - A favicon was generated and was used in the project files.
+- [Coolers](https://coolors.co/):
+    - The colour palette was created using coolers.
+- [W3C Validator](https://validator.w3.org/)
+    - The W3C HTML validator was used to validate all HTML used in the project.
+- [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+    - The W3C CSS validator was used to validate the CSS file used in the project.
+- [Chrome Developer Tool - Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+    - Lighthouse was used to test performance, accessibility, best practices and SEO across the project.
 
 [Back to top!](#mobile-physio)
 
