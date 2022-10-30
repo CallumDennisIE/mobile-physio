@@ -51,6 +51,27 @@ The WAVE web accessibility evalation tool was used on each of the pages on the p
 
 ## Manual Testing:
 ### User Stories Testing
+#### Goals of a First Time Visitor:
+| Goal          | Implementation      |
+|:-------------|:-------------|
+| As a first time visitor, I want to know what Mobile Physio is and the services they provide.| The 'About' page is the landing page, meaning it is the first page a new user will see when they visit the Mobile Physio site.  The 'About' page contains text in the 'Who We Are' section, that describes the Mobile Physio company. The 'Hero-Image' also shows a Physiotherapist working on a patient, allowing a new user to visually understand the actions performed by Mobile Physio. The Service Cards each show one of the three services performed by Mobile Physio, with a description below the image, to allow the user to know what the services are.
+| As a first time visitor, I want to be able to easily navigate through the site.| The 'Navbar' allows for easy navigation of the site, the page title links back to the 'About' page and the navigation links allow the user to navigate to the 'About', 'Contact' and 'Testimonials' pages. The about page also contains a button that links to the 'Contact' page, allowing the user to easily book an appointment. Also, the 'Custom 404' and 'Form Submit' page contain a back button, allowing the user to return to their previously visited site.
+
+***
+#### Goals of a Returning Visitor:
+| Goal          | Implementation      |
+|:-------------|:-------------|
+| As a returning visitor, I want to be able to contact Mobile Physio. | A user can contact Mobile Physio on the 'Contact' page. The 'Talk to Us' section contains the following details: address, email address, phone number and opening hours. These allow the user to have multiple ways to contact Mobile Physio.
+| As a returning visitor, I want to be able to navigate to Mobile Physio's Social Media pages. | A user looking to visit the Mobile Physio social media pages, can use the Footer. The footer is located on all pages on the website. The Footer uses Font Awesome Icons for each of the links, these icons are the logos of the social media sites. The social media sites are Facebook, Instagram and Twitter.
+
+***
+#### Goals of a Frequent Visitor:
+| Goal          | Implementation      |
+|:-------------|:-------------|
+| As a frequent visitor, I want to be able to book an appointment with Mobile Physio. | The users can also book an appointment using the form, this form requires that the user inputs the following fields: first name, last name, email address, phone number, appointment type and date of appointment. The required fields are useful as they ensure that the user inputs all the necessary information and can be contacted by Mobile Physio if necessary.
+| As a frequent visitor, I want to know that my booking was successfully submited. | A user will know that their booking is submitted, this is because when the form is submitted the user is taken to the 'Form Submit' page. This page informs the user that the form has been successfully submitted. This page also allows the user to return back to the form page.
+
+
 
 ### Full Testing
 
