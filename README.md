@@ -77,6 +77,16 @@ The website uses mostly white and light grey colours, to create a clean and mode
 
 ### Typography
 
+The fonts used in the project have been imported from Google Fonts.
+
+- Cabin was used for the Headings on the website.
+
+- Lato was used for the favicon.
+
+- Nunito was used on all of the remaining text throughout the site.
+
+- Sans-serif was used as a backup font for all of the text, in case the Google Fonts could not be displayed.
+
 ### Imagery
 
 #### Hero-Image:
@@ -408,7 +418,7 @@ The additional info text box is resizable vertically, to allow users to type mor
 - [Balsamiq](https://balsamiq.com/):
     - The wireframes were created using the Balsamiq software.
 - [Google Fonts](https://fonts.google.com/):
-    - The fonts 'Cabin' and 'Nunito' were imported from Google Fonts, Cabin was used for the headings and Favicon, Nunito was used for the remaining text.
+    - The fonts Lato, Cabin and Nunito were imported from Google Fonts, Lato was used for the headings, Cabin for the Favicon and Nunito was used for the remaining text.
 - [Favicon](https://favicon.io/):
     - A favicon was generated and was used in the project files.
 - [Coolers](https://coolors.co/):
