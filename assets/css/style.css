@@ -154,18 +154,18 @@ footer a:hover {
     gap: 25px;
 }
 
-#testimonial-item {
+.testimonial-item {
     /* Sets the width of each testimonial */
     flex-basis: 80%;
     /* Set transition duration for transform */
     transition: 0.5s transform;
 }
 /* Enlarge testimonial item on hover */
-#testimonial-item:hover {
+.testimonial-item:hover {
     transform: scale(1.05);
 }
 /* Style Font Awesome review stars */
-#testimonial-item i {
+.testimonial-item i {
     color: gold;
 
     /* Adds a shadow to icons and increases icon size */
@@ -177,7 +177,7 @@ footer a:hover {
 }
 
 /* Move individual stars up on hover */
-#testimonial-item i:hover {
+.testimonial-item i:hover {
     transform: translateY(-5px);
 }
 
@@ -187,7 +187,7 @@ footer a:hover {
     align-content: center;
     justify-content: space-around;
 }
-#contact-item {
+.contact-item {
     flex-basis: 40%;
 }
 /* Wraps form elements to new lines and creates space around */
