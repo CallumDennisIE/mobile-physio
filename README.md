@@ -43,9 +43,7 @@ Mobile Physio is a site for a Dublin-based Physiotherapy Clinic. The target audi
 [Back to top!](#mobile-physio)
 
 ## User Experience
-
 ### User Stories
-
 #### Goals of a First-Time Visitor:
 * As a first-time visitor, I want to know what Mobile Physio is and the services they provide.
 * As a first-time visitor, I want to be able to easily navigate through the site.
@@ -63,9 +61,7 @@ To view the testing of the User Stories, check the TESTING.md file, located [her
 [Back to top!](#mobile-physio)
 
 ## Design
-
 ### Colour Scheme
-
 The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the [hero image](#about-page), this creates a theme throughout the project as recurring colours are used.
 
 <details>
@@ -76,7 +72,6 @@ The website uses mostly white and light grey colours, to create a clean and mode
 </details>
 
 ### Typography
-
 The fonts used in the project have been imported from [Google Fonts](https://fonts.google.com/).
 
 - [Cabin](https://fonts.google.com/specimen/Cabin) was used for the Headings on the website.
@@ -85,7 +80,6 @@ The fonts used in the project have been imported from [Google Fonts](https://fon
 - Sans-serif was used as a backup font for all of the text, in case the Google Fonts could not be displayed.
 
 ### Imagery
-
 #### Hero Image:
 The [hero image](#about-page) was used as it shows a physiotherapist working on a client, allowing users to understand the work performed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recognisable theme throughout the site.
 
@@ -96,7 +90,6 @@ The images used for the [service cards](#about-page), were picked as they show a
 The image used in the [contact page](#contact-page) is of a medical reception, this is used as it is located with the contact details of the clinic, linking the image to the content. The image also uses blue colours, linking them to the images used throughout the site.
 
 ### Wireframes
-
 About Page Wireframes:
 <details>
 <summary>Click for Image: About Page - Mobile Wireframe</summary>
@@ -430,7 +423,6 @@ The additional info text box is resizable vertically, to allow users to type mor
 [Back to top!](#mobile-physio)
 
 ## Deployment & Local Development
-
 ### Deployment
 The Mobile Physio project was deployed using GitHub Pages.
 
@@ -448,7 +440,6 @@ For more information on how to deploy a site with GitHub pages, please click [he
 
 ***
 ### Local Development
-
 Steps to fork this project using GitHub:
 1. Navigate to the GitHub repository for this project: [CallumDennisIE/mobile-physio](https://github.com/CallumDennisIE/mobile-physio).
 2. Click the 'Fork' button (top right-hand side of the repository page).
@@ -475,15 +466,12 @@ For more information on how to clone a GitHub repository please click [here](htt
 [View the project testing document here.](TESTING.md)
 
 ## Credits
-
 ### Code
-
 The back buttons used on both the [Form Submit](#form-submit-page) page and the [Custom 404](#custom-404-page) page used code from [W3Schools](https://www.w3schools.com).
 
 [Link to code used](https://www.w3schools.com/jsref/met_his_back.asp).
 
 ### Media
-
 The images for this project were taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 [Back to top!](#mobile-physio)
