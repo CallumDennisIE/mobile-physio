@@ -41,8 +41,6 @@ The [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) was used to val
 The Chrome Developer Tool Lighthouse was used to test the following factors across the project: performance, accessibility, best practices and SEO.
 
 #### Desktop Results:
-
-
 About Page Results:
 
 ![Lighthouse About Page Results](/assets/images/TESTING/lighthouse-about-desktop.png)
@@ -65,7 +63,6 @@ Custom 404 Page Results:
 
 ***
 #### Mobile Results:
-
 About Page Results:
 
 ![Lighthouse About Page Results](/assets/images/TESTING/lighthouse-about-mobile.png)
@@ -85,7 +82,6 @@ Submit Page Results:
 Custom 404 Page Results:
 
 ![Lighthouse Custom 404 Page Results](/assets/images/TESTING/lighthouse-404-mobile.png)
-
 
 ### WAVE
 The WAVE web accessibility evaluation tool was used on each of the pages of the project. The results are below:
@@ -134,8 +130,86 @@ Custom 404 Page Results:
 | As a frequent visitor, I want to be able to book an appointment with Mobile Physio. | The users can also book an appointment using the form, this form requires that the user inputs the following fields: first name, last name, email address, phone number, appointment type and date of appointment. The required fields are useful as they ensure that the user inputs all the necessary information and can be contacted by Mobile Physio if necessary.
 | As a frequent visitor, I want to know that my booking was successfully submitted. | A user will know that their booking is submitted, this is because when the form is submitted the user is taken to the 'Form Submit' page. This page informs the user that the form has been successfully submitted. This page also allows the user to return to the form page.
 
-
 ### Full Testing
+The devices used to test are:
+- iPhone 11 Pro Max
+- MacBook Air (M1, 2020) - 13.3-inch (2560 × 1600) Built-in Retina Display
+- MacBook Air (M1, 2020) - 27-inch (2560 × 1440) Display
+
+These tests have been performed on the following browsers:
+- Google Chrome - Desktop
+- Google Chrome - Mobile
+- Safari -  Mobile
+
+The following exceptions have been made to the tests:
+- On mobile, the page title is not shown. Therefore, during the mobile tests, the page title results do not apply.
+- On mobile, the hover effect is not possible, as the user has to tap on the screen. Therefore, during the mobile tests, the hover effect results do not apply.
+
+#### General Testing
+The general tests are performed on all of the pages on the site, as these features are present on every page.
+
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Navbar | Page Title is clicked | User is linked to the About page | User is linked to the About page | Pass |
+| Navbar | About link is clicked | User is linked to the About page | User is linked to the About page | Pass |
+| Navbar | Testimonial link is clicked | User is linked to the Testimonial page | User is linked to the Testimonial page | Pass |
+| Navbar | Contact link is clicked | User is linked to the Contact page | User is linked to the Contact page | Pass |
+| Navbar | Page title is hovered over | Page title is underlined | Page title is underlined | Pass |
+| Navbar | About link is hovered over | About link is underlined | About link is underlined | Pass |
+| Navbar | Contact link is hovered over | Contact link is underlined | Contact link is underlined | Pass |
+| Navbar | Testimonial link is hovered over | Testimonial link is underlined | Testimonial link is underlined | Pass |
+| Footer | Instagram icon is clicked | https://www.instagram.com/ opens in a new tab | https://www.instagram.com/ opens in a new tab | Pass |
+| Footer | Facebook icon is clicked | https://www.facebook.com/ opens in a new tab | https://www.facebook.com/ opens in a new tab | Pass |
+| Footer | Twitter icon is clicked | https://twitter.com/ opens in a new tab | https://twitter.com/ opens in a new tab | Pass |
+| Footer | Instagram icon is hovered over | Instagram icon is enlarged | Instagram icon is enlarged | Pass |
+| Footer | Facebook icon is hovered over | Facebook icon is enlarged | Facebook icon is enlarged | Pass |
+| Footer | Twitter icon is hovered over | Twitter icon is enlarged | Twitter icon is enlarged | Pass |
+
+#### Custom 404 Page
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Custom 404 URL | Non-existent page URL used | User is linked to the Custom 404 page | User is linked to the Custom 404 page | Pass |
+| Custom 404 Back Button | Back button is clicked | User is linked to their previously visited page | User is linked to their previously visited page | Pass |
+| Custom 404 Back Button | Back button is hovered over | Back button text and background changes colour and the button enlarges | Back button text and background changes colour and the button enlarges | Pass |
+
+#### Form Submit Page
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Form Submit Redirect |  Contact form is submitted | User is linked to Form Submit page | User is linked to Form Submit page | Pass |
+| Form Submit Back Button | Back button is clicked | User is linked to their previously visited page | User is linked to their previously visited page | Pass |
+| Form Submit Back Button | Back button is hovered over | Back button text and background changes colour and the button enlarges | Back button text and background changes colour and the button enlarges | Pass |
+
+#### Testimonials Page
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Testimonial Card | Testimonial card is hovered over | Testimonial card enlarges | Testimonial card enlarges | Pass |
+| Testimonial Review Stars | Review stars are hovered over | Review stars move up | Review stars move up | Pass |
+
+#### About Page
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Hero Image | Compared Hero Image on mobile and desktop | Hero image changes when on mobile screen size | Hero image changes when on mobile screen size | Pass |
+| Service Cards | Deep Tissue Massage card hovered over | Deep Tissue Massage card enlarges |Deep Tissue Massage card enlarges | Pass |
+| Service Cards | Injury Rehabilitation card hovered over | Injury Rehabilitation card enlarges | Injury Rehabilitation card enlarges | Pass |
+| Service Cards | Sports Massage card hovered over | Sports Massage card enlarges | Sports Massage card enlarges | Pass |
+| Contact Button | Contact button is clicked | User is linked to the Contact page | User is linked to the Contact page | Pass |
+| Contact Button | Contact button is hovered over | Contact button text and background changes colour and the button enlarges | Contact button text and background changes colour and the button enlarges | Pass |
+
+#### Contact Page
+| Feature | Action Tested  | Expected Outcome | Test Outcome | Grade |
+|-------------|-------------|-----|-----|-----| 
+| Form Validation | Form is submitted without first name | User is prompted to fill out first name field | User is prompted to fill out first name field | Pass |
+| Form Validation | Form is submitted without last name | User is prompted to fill out last name field | User is prompted to fill out last name field | Pass |
+| Form Validation | Form is submitted without email address | User is prompted to fill out email address field | User is prompted to fill out email address field | Pass |
+| Form Validation | Form is submitted  with an invalid email address | User is prompted to use a valid email address | User is prompted to use a valid email address | Pass |
+| Form Validation | Form is submitted without phone number | User is prompted to fill out phone number field | User is prompted to fill out phone number field | Pass |
+| Form Validation | Form is submitted without date of birth field | Form submits successfully | Form submits successfully | Pass |
+| Form Validation | User tries to select multiple appointment types | Only one appointment type is selected at once | Only one appointment type is selected at once | Pass |
+| Form Validation | Form is submitted without selecting an appointment type | User is prompted to select one of the appointment types | User is prompted to select one of the appointment types | Pass |
+| Form Validation | Form is submitted  without selecting an appointment date | User is prompted to enter an appointment date | User is prompted to enter an appointment date  | Pass |
+| Form Validation | Form is submitted without additional information provided | Form submits successfully | Form submits successfully | Pass |
+| Reset Form Button | The Reset form button is pressed | The form fields are cleared | The form fields are cleared | Pass |
+| Submit Form Button | The Submit form button is pressed | The user is linked to the form Submit page, the form contents is added to the URL as a query string | The user is linked to the form Submit page, the form contents is added to the URL as a query string | Pass |
 
 [Back to top!](#mobile-physio---testing)
 
