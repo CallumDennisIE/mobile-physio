@@ -66,7 +66,7 @@ To view the testing of the User Stories, check the TESTING.md file, located [her
 
 ### Colour Scheme
 
-The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the Hero Image, this creates a theme thorughout the project as reoccuring colours are used.
+The website uses mostly white and light grey colours, to create a clean and modern design. The blue colour (`#4EB7DA`) was taken from the blue tape used in the [hero-image](#about-page), this creates a theme thorughout the project as reoccuring colours are used.
 
 <details>
 <summary>Click for Image: Colour Palette</summary>
@@ -77,26 +77,23 @@ The website uses mostly white and light grey colours, to create a clean and mode
 
 ### Typography
 
-The fonts used in the project have been imported from Google Fonts.
+The fonts used in the project have been imported from [Google Fonts](https://fonts.google.com/).
 
-- Cabin was used for the Headings on the website.
-
-- Lato was used for the favicon.
-
-- Nunito was used on all of the remaining text throughout the site.
-
+- [Cabin](https://fonts.google.com/specimen/Cabin) was used for the Headings on the website.
+- [Lato](https://fonts.google.com/specimen/Lato) was used for the favicon.
+- [Nunito](https://fonts.google.com/specimen/Nunito) was used on all of the remaining text throughout the site.
 - Sans-serif was used as a backup font for all of the text, in case the Google Fonts could not be displayed.
 
 ### Imagery
 
 #### Hero-Image:
-The hero-image was used as it shows a physiotherapist working on a client, allowing users to udnerstand the work perfromed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recongisable theme throughout the site.
+The [hero-image](#about-page) was used as it shows a physiotherapist working on a client, allowing users to udnerstand the work perfromed by Mobile Physio. A wide image was used for desktop and larger devices, while a portrait image was picked for usage on mobile devices, both of these images are similar therefore creating a recongisable theme throughout the site.
 
 #### Service Card Images:
-The images used for the service cards were picked as they show a Physio performing the services descibed below them. They also all feature the hands of the physio, which links them to the hero-image. Two out of three of the images also feature a blue colour, which matches the blue of the hero-image tape.
+The images used for the [service cards](#about-page), were picked as they show a Physio performing the services descibed below them. They also all feature the hands of the physio, which links them to the [hero-image](#about-page). Two out of three of the images also feature a blue colour, which matches the blue of the hero-image tape.
 
 #### Contact Page Images:
-The image used in the contact page is of a medical reception, this is used as it is located with the contact details of the clinic, linking the image to the content. The image also uses blue colours, linking them to the images used throughout the site.
+The image used in the [contact page](#contact-page) is of a medical reception, this is used as it is located with the contact details of the clinic, linking the image to the content. The image also uses blue colours, linking them to the images used throughout the site.
 
 ### Wireframes
 
@@ -152,7 +149,7 @@ Contact Page Wireframes:
 ## Features
 ### Navbar:
 Included on all pages throughout the website. Design is consistent on all pages to provde a consitent user experience.
-Contains the Website title (which links to the index.html page) and links to the About, Testimonials and Contact Pages.
+Contains the Website title (which links to the [About page](#about-page)) and additional links to the [About](#about-page), [Testimonials](#testimonials-page) and [Contact](#contact-page) Pages.
 
 <details>
 <summary>Click for Image: Navbar - Desktop</summary>
@@ -185,7 +182,7 @@ Website title and links are underlined when hovered over, this provides extra fe
 ### Footer:
 The footer is located at the bottom of each page. It contains social media links to Instagram, Facebook and Twitter.
 The footer links open in a new tab, to allow the user to remain on the Mobile Physio site without having to navigate back through their search history.
-Footer uses Font Awesome Icons that are widely recognisable with the associated Social Media sites.
+The Footer uses [Font Awesome](https://fontawesome.com/) Icons that are widely recognisable with the associated social media sites.
 
 <details>
 <summary>Click for Image: Footer - Mobile</summary>
@@ -229,7 +226,7 @@ This page will display when a requested when the requested page is not able to b
 
 </details>
 
-This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the nabar and footer elemnts, to allow the user to continue site navigation.
+This custom page replaces the default GitHub Pages 404 page, the default page does not follow the theme of the other Mobile Physio page, which could disorientate users. The custom page also includes the [Navbar](#navbar) and [Footer](#footer) elemnts, to allow the user to continue site navigation.
 
 <details>
 <summary>Click for Image: Default GitHub Pages 404 Page</summary>
@@ -266,7 +263,7 @@ This provides the user feedback and informs them that the form has been successf
 
 </details>
 
-The page contains a back button, allowing the user to return to their previous page, which would be the contact page.
+The page contains a back button, allowing the user to return to their previous page, which would be the [Contact](#contact-page) page.
 
 <details>
 <summary>Click for Image: Form Submit - Back Button</summary>
@@ -313,7 +310,7 @@ The review stars also animate when hovered over, this makes the website appear m
 
 ***         
 ### About Page:
-This page is intended as a landing page for users. It provides infomration about the Mobile Physiocompany and the services they provide.
+This page is intended as a landing page for users. It provides infomration about the Mobile Physio company and the services they provide.
 A large hero image shows the user a physiotherpaist working on a patient, allowing them to understand the service provided.
 
 <details>
@@ -346,7 +343,7 @@ The service cards show the three different services that Mobile Physio provides,
 
 </details>
 
-The contact section is used to allow users to easily navigate to the contact page. This has a button that enlarges and changes colur on hover.
+The contact section is used to allow users to easily navigate to the [Contact](#contact-page) page. This has a button that enlarges and changes colur on hover.
 
 <details>
 <summary>Click for Image: About Page Contact Section - Hover</summary>
@@ -373,7 +370,7 @@ This page is split between two elemtns, the clinic information card and the form
 
 </details>         
        
-The clinic information card provides the user the necessary details to visit Mobile Physio ushc as address and opening hours. It uses widely recognised Font Awesome icons to highlight the use meaning of the text.
+The clinic information card provides the user the necessary details to visit Mobile Physio ushc as address and opening hours. It uses widely recognised [Font Awesome](https://fontawesome.com/) icons to highlight the use meaning of the text.
 
 The form card allows the user to input the necessary details to book an appointment. Most of the inputs are required to submit the form (except for additional info and date of birth), this stops the user from trying to book an appointment, without the necessary information.
 
@@ -384,7 +381,7 @@ The form card allows the user to input the necessary details to book an appointm
 
 </details>  
 
-The form card also has a submit and reset button that enlarge on hover. When the submit button is pressed and the required fields are filled, the user is sent to the Form Submit page, when the reset button is pressed, the form is cleared.
+The form card also has a submit and reset button that enlarge on hover. When the submit button is pressed and the required fields are filled, the user is sent to the [Form Submit](#form-submit-page) page, when the reset button is pressed, the form is cleared.
 
 <details>
 <summary>Click for Image: Contact Page Form - Hover</summary>
@@ -404,7 +401,7 @@ The additional info text box is resizable vertically, to allow users to type mor
 
 ### Frameworks, Libraries & Programs Used
 - [Font Awesome](https://fontawesome.com/):
-    - Font Awesome Icons were used for the contact form, social media footer and the testimonial stars.
+    - Font Awesome Icons were used for the [Contact](#contact-page) form, social media [Footer](#footer) and the [Testimonial](#testimonials-page) stars.
 - [Git](https://git-scm.com/):
     - Version control was performed through the use of Git commands
 - [GitHub](https://github.com/):
@@ -416,9 +413,9 @@ The additional info text box is resizable vertically, to allow users to type mor
 - [Compressor.io](https://compressor.io/):
     - Compressor.io was used to compress all images in the project and REAME, that had an original file size above 5MB.
 - [Balsamiq](https://balsamiq.com/):
-    - The wireframes were created using the Balsamiq software.
+    - The [wireframes](#wireframes) were created using the Balsamiq software.
 - [Google Fonts](https://fonts.google.com/):
-    - The fonts Lato, Cabin and Nunito were imported from Google Fonts, Lato was used for the headings, Cabin for the Favicon and Nunito was used for the remaining text.
+    - The fonts [Lato](https://fonts.google.com/specimen/Lato), [Cabin](https://fonts.google.com/specimen/Cabin) and [Nunito](https://fonts.google.com/specimen/Nunito) were imported from Google Fonts.
 - [Favicon](https://favicon.io/):
     - A favicon was generated and was used in the project files.
 - [Coolers](https://coolors.co/):
@@ -481,7 +478,7 @@ For more infomration on how to clone a GitHub repository plaease click [here](ht
 
 ### Code
 
-The back buttons used on both the Form Submit page and the Custom 404 page, used code from W3Schools.
+The back buttons used on both the [Form Submit](#form-submit-page) page and the [Custom 404](#custom-404-page) page, used code from [W3Schools](https://www.w3schools.com).
 
 [Link to code used](https://www.w3schools.com/jsref/met_his_back.asp).
 
