@@ -27,15 +27,15 @@
 ### W3C Validator
 The [W3C Validator](https://validator.w3.org/) was used to validate all HTML files used in the project. The results are shown below:
 
-* 404.html - 
-* contact.html - 
-* index.html - 
-* submit.html - 
-* testimonial.html - 
+* 404.html - No errors or warnings to show.
+* contact.html - No errors or warnings to show.
+* index.html - No errors or warnings to show.
+* submit.html - No errors or warnings to show.
+* testimonial.html - No errors or warnings to show.
 
 The [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) was used to validate the CSS file used in the project. The result is below:
 
-* style.css - 
+* style.css - No Error Found.
 
 ### Lighthouse
 The Chrome Developer Tool Lighthouse was used to test the following factors across the project: performance, accessibility, best practices and SEO.
