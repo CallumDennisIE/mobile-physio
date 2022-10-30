@@ -90,6 +90,26 @@ Custom 404 Page Results:
 ### WAVE
 The WAVE web accessibility evaluation tool was used on each of the pages of the project. The results are below:
 
+About Page Results:
+
+![WAVE About Page Results](/assets/images/TESTING/wave-about.png)
+
+Contact Page Results:
+
+![WAVE Contact Page Results](/assets/images/TESTING/wave-contact.png)
+
+Testimonial Page Results:
+
+![WAVE Testimonial Page Results](/assets/images/TESTING/wave-testimonial.png)
+
+Submit Page Results:
+
+![WAVE Submit Page Results](/assets/images/TESTING/wave-submit.png)
+
+Custom 404 Page Results:
+
+![WAVE Custom 404 Page Results](/assets/images/TESTING/wave-404.png)
+
 [Back to top!](#mobile-physio---testing)
 
 ## Manual Testing:
@@ -113,7 +133,6 @@ The WAVE web accessibility evaluation tool was used on each of the pages of the 
 |:-------------|:-------------|
 | As a frequent visitor, I want to be able to book an appointment with Mobile Physio. | The users can also book an appointment using the form, this form requires that the user inputs the following fields: first name, last name, email address, phone number, appointment type and date of appointment. The required fields are useful as they ensure that the user inputs all the necessary information and can be contacted by Mobile Physio if necessary.
 | As a frequent visitor, I want to know that my booking was successfully submitted. | A user will know that their booking is submitted, this is because when the form is submitted the user is taken to the 'Form Submit' page. This page informs the user that the form has been successfully submitted. This page also allows the user to return to the form page.
-
 
 
 ### Full Testing
