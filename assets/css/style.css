@@ -127,7 +127,7 @@ footer a:hover {
     align-items: stretch;
 }
 
-#about-item {
+.about-item {
     /* Sets the amount of space used by each about item */
     flex-basis: 30%;
     /* Set transition duration for transform */
@@ -135,7 +135,7 @@ footer a:hover {
 }
 
 /* Enlarge item on hover*/
-#about-item:hover {
+.about-item:hover {
     transform: scale(1.05);
 }
 
