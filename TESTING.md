@@ -219,7 +219,7 @@ None
 
 ### Solved Bugs
 #### About & Contact Page: Re-used ID's
-The ID: `contact-container` was used twice in the code, on the about page and the contact page. As the contact page used a media breakpoint to chnage the flex-direction to row, this meant that the contact text on the About page was also merged onto a single row.
+The ID: `contact-container` was used twice in the code, on the about page and the contact page. As the contact page used a media breakpoint to change the flex-direction to row, this meant that the contact text on the About page was also merged into a single row.
 
 <details>
 <summary>Click for Image: Re-used IDs bug - Initial Browser Output</summary>
